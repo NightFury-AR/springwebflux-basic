@@ -1,6 +1,6 @@
 package com.reactivelearning.basic.service;
 import com.reactivelearning.basic.model.Customer;
-import com.reactivelearning.springwebflux.util.Util;
+//import com.reactivelearning.springwebflux.util.Util;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class NormalCustomerService {
-    private final List<Customer> customerData;
+   /* private final List<Customer> customerData;
 
     public NormalCustomerService() {
         this.customerData = Util.loadData();
@@ -29,6 +29,6 @@ public class NormalCustomerService {
                 .collect(Collectors.toList());
     }
 
-
+*/
 
 }

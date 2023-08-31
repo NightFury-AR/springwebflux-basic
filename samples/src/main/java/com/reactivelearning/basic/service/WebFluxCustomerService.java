@@ -1,7 +1,7 @@
 package com.reactivelearning.basic.service;
 
 import com.reactivelearning.basic.model.Customer;
-import com.reactivelearning.springwebflux.util.Util;
+//import com.reactivelearning.springwebflux.util.Util;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -13,7 +13,7 @@ public class WebFluxCustomerService {
     private Flux<Customer> customerData = null;
 
     public WebFluxCustomerService() {
-        this.customerData = Util.loadFlux();
+        this.customerData = null;
     }
 
     public Mono<Customer> getCustomerById(Long customerId) {
